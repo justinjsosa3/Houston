@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Houston Bachelor Party</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .page {
+      height: 100vh;
+      width: 100vw;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px #000;
+    }
+    .arch {
+      font-size: 5em;
+      font-weight: bold;
+      transform: rotate(-5deg);
+    }
+    .subheading {
+      font-size: 2.5em;
+    }
+    .links {
+      margin-top: 30px;
+    }
+    .link {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+      font-size: 1.5em;
+      text-decoration: none;
+      color: white;
+    }
+    .link img {
+      width: 24px;
+      margin-right: 10px;
+    }
+    .itinerary-item {
+      font-weight: bold;
+      font-size: 2em;
+    }
+    .itinerary-section {
+      margin-bottom: 20px;
+    }
+    .survival-list {
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+    }
+    .footer-links {
+      position: absolute;
+      bottom: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Home Page -->
+<div class="page" id="home" style="background-image: url('Houston Cityscape.jpg');">
+  <div class="arch">HOUSTON</div>
+  <div class="subheading">Bachelor's Party</div>
+  <div class="links">
+    <a class="link" href="https://maps.apple.com/?address=9213+Coney+Island+Dr,Bakersfield,CA,93311">
+      <img src="rocket.png" alt="rocket"> AirBnB
+    </a>
+    <a class="link" href="#itinerary">
+      <img src="rocket.png" alt="rocket"> Itinerary
+    </a>
+    <a class="link" href="#survival">
+      <img src="rocket.png" alt="rocket"> Survival Pack
+    </a>
+  </div>
+</div>
+
+<!-- Itinerary Page -->
+<div class="page" id="itinerary" style="background-image: url('Harden.jpg');">
+  <div class="itinerary-section" style="color: yellow;">FRIDAY (after arrival)</div>
+  <div class="itinerary-item" style="color: yellow;">Restaurant</div>
+  <div class="itinerary-item" style="color: yellow;">Strip club</div>
+  <div class="itinerary-item" style="color: yellow;">Waffle House - Maybe</div>
+
+  <div class="itinerary-section" style="color: lime;">SATURDAY</div>
+  <div class="itinerary-item" style="color: lime;">Paintball (10 - 12:30/1pm)</div>
+  <div class="itinerary-item" style="color: lime;">Restaurant</div>
+  <div class="itinerary-item" style="color: lime;">DOME</div>
+  <div class="itinerary-item" style="color: lime;">Waffle House (Brandyn's request)</div>
+
+  <div class="itinerary-section" style="color: cyan;">SUNDAY</div>
+  <div class="itinerary-item" style="color: cyan;">Morning Open</div>
+  <div class="itinerary-item" style="color: cyan;">Brunch spot</div>
+  <div class="itinerary-item" style="color: cyan;">Sekai Pool Party (3-10pm)</div>
+  <div class="itinerary-item" style="color: cyan;">Strippers</div>
+
+  <div class="footer-links">
+    <a class="link" href="#home"><img src="rocket.png" alt="rocket"> Home</a>
+    <a class="link" href="#survival"><img src="rocket.png" alt="rocket"> Survival Pack</a>
+    <a class="link" href="https://maps.apple.com/?address=9213+Coney+Island+Dr,Bakersfield,CA,93311"><img src="rocket.png" alt="rocket"> AirBnB</a>
+  </div>
+</div>
+
+<!-- Survival Pack Page -->
+<div class="page" id="survival" style="background-image: url('Rocket Takeoff 2.jpg');">
+  <div class="arch">Bachelor's Party Survival Pack</div>
+  <div class="survival-list">
+    <p>Shoe Cleaner Kit</p>
+    <p>Gum</p>
+    <p>Floss</p>
+    <p>Liquid IV</p>
+    <p>Advil</p>
+    <p>Tylenol</p>
+    <p>BC Headache Powder</p>
+    <p>5 Hour Energy</p>
+    <p>Shot Glass</p>
+    <p>Bachelor Party Shirt</p>
+    <p>Pedialyte Popsicles</p>
+  </div>
+  <div class="footer-links">
+    <a class="link" href="#home"><img src="rocket.png" alt="rocket"> Home</a>
+    <a class="link" href="https://maps.apple.com/?address=9213+Coney+Island+Dr,Bakersfield,CA,93311"><img src="rocket.png" alt="rocket"> AirBnB</a>
+    <a class="link" href="#itinerary"><img src="rocket.png" alt="rocket"> Itinerary</a>
+  </div>
+</div>
+
+</body>
+</html>
