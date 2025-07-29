@@ -7,10 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    /* ✅ Load custom fonts */
     @font-face {
-      font-family: 'Bubblebody Neue';
-      src: url('bubbleboddyneue-regular trial.ttf') format('truetype');
+      font-family: 'Bubblebody Neu';
+      src: url('bubblebodyneue-regular trial.ttf') format('truetype');
     }
 
     @font-face {
@@ -42,7 +41,7 @@
 
     .houston {
       font-family: 'Bubblebody Neu', sans-serif;
-      font-size: 72pt;
+      font-size: clamp(32px, 12vw, 72px); /* ✅ Responsive size */
       color: #ff3131;
       display: block;
       line-height: 1;
@@ -50,7 +49,7 @@
 
     .bachelor {
       font-family: 'Bukhari Script', cursive;
-      font-size: 75pt;
+      font-size: clamp(36px, 13vw, 75px); /* ✅ Responsive size */
       color: #ffde59;
       display: block;
       line-height: 1;
@@ -94,4 +93,5 @@
 
 </body>
 </html>
+
 
