@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Itinerary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
@@ -10,36 +11,40 @@
       background-size: cover;
       color: white;
       font-family: Arial, sans-serif;
-      padding: 40px;
+      padding: 6vw;
     }
     h2 {
-      font-size: 36px;
-      margin-bottom: 15px;
+      font-size: 6vw;
+      margin-bottom: 2vh;
     }
     .day-section {
-      font-size: 24px;
+      font-size: 5vw;
       font-weight: bold;
-      margin-top: 30px;
+      margin-top: 4vh;
     }
     .day-section span {
       display: block;
-      margin-top: 10px;
-      margin-left: 20px;
+      margin-left: 5vw;
+      margin-top: 1vh;
     }
     .friday { color: #ffcc00; }
     .saturday { color: #00ffcc; }
     .sunday { color: #ff66cc; }
     .nav-link {
-      display: inline-block;
-      margin: 20px 15px;
-      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 5vh;
       text-decoration: none;
+      font-size: 5vw;
       color: white;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 10px 15px;
+      border-radius: 10px;
     }
     .nav-link img {
-      vertical-align: middle;
-      margin-right: 10px;
       width: 24px;
+      margin-right: 10px;
     }
   </style>
 </head>
@@ -67,16 +72,94 @@
     <span>Strippers</span>
   </div>
 
-  <div style="margin-top: 60px;">
-    <a class="nav-link" href="index.html">
-      <img src="rocket.png" alt="Rocket">Home
-    </a>
-    <a class="nav-link" href="survival-pack.html">
-      <img src="rocket.png" alt="Rocket">Survival Pack
-    </a>
-    <a class="nav-link" href="https://maps.apple.com/?q=9213+Coney+Island+Dr,+Bakersfield,+CA+93311" target="_blank">
-      <img src="rocket.png" alt="Rocket">AirBnB
-    </a>
-  </div>
+  <a class="nav-link" href="index.html">
+    <img src="rocket.png" alt="Rocket">Home
+  </a>
+  <a class="nav-link" href="survival-pack.html">
+    <img src="rocket.png" alt="Rocket">Survival Pack
+  </a>
+  <a class="nav-link" href="https://maps.apple.com/?q=9213+Coney+Island+Dr,+Bakersfield,+CA+93311" target="_blank">
+    <img src="rocket.png" alt="Rocket">AirBnB
+  </a>
+</body>
+</html>
+📱 Mobile-Friendly survival-pack.html (Survival Pack Page)
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Survival Pack</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      background: url('Rocket Takeoff 2.jpg') no-repeat center center;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      padding: 5vw;
+    }
+    h1 {
+      font-size: 8vw;
+      margin-bottom: 4vh;
+      transform: rotate(-3deg);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 5vw;
+      font-weight: bold;
+    }
+    li {
+      margin: 2vh 0;
+    }
+    .nav-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 4vh auto;
+      max-width: 90%;
+      text-decoration: none;
+      font-size: 5vw;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 10px 15px;
+      border-radius: 10px;
+    }
+    .nav-link img {
+      width: 24px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bachelor's Party Survival Pack</h1>
+  <ul>
+    <li>Shoe Cleaner Kit</li>
+    <li>Gum</li>
+    <li>Floss</li>
+    <li>Liquid IV</li>
+    <li>Advil</li>
+    <li>Tylenol</li>
+    <li>BC Headache Powder</li>
+    <li>5 Hour Energy</li>
+    <li>Shot Glass</li>
+    <li>Bachelor Party Shirt</li>
+    <li>Pedialyte Popsicles</li>
+  </ul>
+
+  <a class="nav-link" href="home.html">
+    <img src="rocket.png" alt="Rocket">Home
+  </a>
+  <a class="nav-link" href="https://maps.apple.com/?q=9213+Coney+Island+Dr,+Bakersfield,+CA+93311" target="_blank">
+    <img src="rocket.png" alt="Rocket">AirBnB
+  </a>
+  <a class="nav-link" href="information.htmll">
+    <img src="rocket.png" alt="Rocket">Itinerary
+  </a>
 </body>
 </html>

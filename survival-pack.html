@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Survival Pack</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
@@ -11,33 +12,38 @@
       font-family: Arial, sans-serif;
       color: white;
       text-align: center;
-      padding: 40px;
+      padding: 5vw;
     }
     h1 {
-      font-size: 48px;
-      margin-bottom: 40px;
+      font-size: 8vw;
+      margin-bottom: 4vh;
       transform: rotate(-3deg);
     }
     ul {
       list-style: none;
       padding: 0;
-      font-size: 24px;
+      font-size: 5vw;
       font-weight: bold;
     }
     li {
-      margin: 15px 0;
+      margin: 2vh 0;
     }
     .nav-link {
-      display: inline-block;
-      margin: 30px 20px;
-      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 4vh auto;
+      max-width: 90%;
       text-decoration: none;
+      font-size: 5vw;
       color: white;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 10px 15px;
+      border-radius: 10px;
     }
     .nav-link img {
-      vertical-align: middle;
-      margin-right: 10px;
       width: 24px;
+      margin-right: 10px;
     }
   </style>
 </head>
@@ -57,16 +63,14 @@
     <li>Pedialyte Popsicles</li>
   </ul>
 
-  <div>
-    <a class="nav-link" href="index.html">
-      <img src="rocket.png" alt="Rocket">Home
-    </a>
-    <a class="nav-link" href="https://maps.apple.com/?q=9213+Coney+Island+Dr,+Bakersfield,+CA+93311" target="_blank">
-      <img src="rocket.png" alt="Rocket">AirBnB
-    </a>
-    <a class="nav-link" href="itinerary.html">
-      <img src="rocket.png" alt="Rocket">Itinerary
-    </a>
-  </div>
+  <a class="nav-link" href="home.html">
+    <img src="rocket.png" alt="Rocket">Home
+  </a>
+  <a class="nav-link" href="https://maps.apple/p/1N~9yoxCWpMmAp" target="_blank">
+    <img src="rocket.png" alt="Rocket">AirBnB
+  </a>
+  <a class="nav-link" href="information.html">
+    <img src="rocket.png" alt="Rocket">Itinerary
+  </a>
 </body>
 </html>
