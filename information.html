@@ -3,38 +3,39 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Survival Pack</title>
+  <title>Itinerary</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
-      background: url('Rocket Takeoff 2.jpg') no-repeat center center;
+      background: url('Harden.jpg') no-repeat center center;
       background-size: cover;
-      font-family: Arial, sans-serif;
       color: white;
-      text-align: center;
-      padding: 5vw;
+      font-family: Arial, sans-serif;
+      padding: 6vw;
     }
-    h1 {
-      font-size: 8vw;
-      margin-bottom: 4vh;
-      transform: rotate(-3deg);
+    h2 {
+      font-size: 6vw;
+      margin-bottom: 2vh;
     }
-    ul {
-      list-style: none;
-      padding: 0;
+    .day-section {
       font-size: 5vw;
       font-weight: bold;
+      margin-top: 4vh;
     }
-    li {
-      margin: 2vh 0;
+    .day-section span {
+      display: block;
+      margin-left: 5vw;
+      margin-top: 1vh;
     }
+    .friday { color: #ffcc00; }
+    .saturday { color: #00ffcc; }
+    .sunday { color: #ff66cc; }
     .nav-link {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 4vh auto;
-      max-width: 90%;
+      margin-top: 5vh;
       text-decoration: none;
       font-size: 5vw;
       color: white;
@@ -49,20 +50,28 @@
   </style>
 </head>
 <body>
-  <h1>Bachelor's Party Survival Pack</h1>
-  <ul>
-    <li>Shoe Cleaner Kit</li>
-    <li>Gum</li>
-    <li>Floss</li>
-    <li>Liquid IV</li>
-    <li>Advil</li>
-    <li>Tylenol</li>
-    <li>BC Headache Powder</li>
-    <li>5 Hour Energy</li>
-    <li>Shot Glass</li>
-    <li>Bachelor Party Shirt</li>
-    <li>Pedialyte Popsicles</li>
-  </ul>
+  <div class="day-section friday">
+    <h2>FRIDAY (after arrival)</h2>
+    <span>Restaurant? Maybe</span>
+    <span>Strip Club? Maybe</span>
+    <span>Bar/Loung? Maybe</span>
+  </div>
+
+  <div class="day-section saturday">
+    <h2>SATURDAY</h2>
+    <span>Open. ATV Maybe?</span>
+    <span>Restaurant 6:30pm</span>
+    <span>DOME 10pm - 2am</span>
+    <span>STRIP CLUB??</span>
+  </div>
+
+  <div class="day-section sunday">
+    <h2>SUNDAY</h2>
+    <span>Paintball 10am - 12:30pm</span>
+    <span>Brunch Spot?</span>
+    <span>Sekai Pool Party (3-10pm)</span>
+    <span>Strippers?</span>
+  </div>
 
   <a class="nav-link" href="home.html">
     <img src="rocket.png" alt="Rocket">Home
