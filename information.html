@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +5,13 @@
   <meta charset="UTF-8">
   <title>Itinerary</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
+    @font-face {
+      font-family: 'Neoneon';
+      src: url('neoneon.otf') format('opentype');
+    }
+
     body {
       margin: 0;
       background: url('Harden.jpg') no-repeat center center;
@@ -15,23 +20,43 @@
       font-family: Arial, sans-serif;
       padding: 6vw;
     }
+
+    /* ✅ Neon Itinerary Title */
+    .neon-title {
+      font-family: 'Neoneon', cursive;
+      font-size: clamp(36px, 12vw, 90px);
+      color: #ff5055;
+      text-align: center;
+      text-shadow:
+        0 0 5px #ff5055,
+        0 0 10px #ff5055,
+        0 0 20px #ff5055,
+        0 0 30px #ff1f3f,
+        0 0 40px #ff1f3f;
+      margin-bottom: 5vh;
+    }
+
     h2 {
       font-size: 6vw;
       margin-bottom: 2vh;
     }
+
     .day-section {
       font-size: 5vw;
       font-weight: bold;
       margin-top: 4vh;
     }
+
     .day-section span {
       display: block;
       margin-left: 5vw;
       margin-top: 1vh;
     }
+
     .friday { color: #ffcc00; }
     .saturday { color: #00ffcc; }
     .sunday { color: #ff66cc; }
+
     .nav-link {
       display: flex;
       align-items: center;
@@ -44,6 +69,7 @@
       padding: 10px 15px;
       border-radius: 10px;
     }
+
     .nav-link img {
       width: 24px;
       margin-right: 10px;
@@ -51,6 +77,10 @@
   </style>
 </head>
 <body>
+
+  <!-- ✅ Added Neon Title -->
+  <div class="neon-title">Itinerary</div>
+
   <div class="day-section friday">
     <h2>FRIDAY (after arrival)</h2>
     <span>Restaurant? Maybe</span>
